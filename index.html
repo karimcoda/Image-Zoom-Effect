@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Zoom Effect | CSS</title>
+	<style type="text/css">
+		body{
+			background-color: #FEECD8;
+		}
+		.zoomlmage{
+			margin: 0 auto;
+			padding: 20%;
+			width: 500px;
+			height: 250px;
+			text-align: center;
+		}
+		img{
+			max-width: 100%;
+			max-height: 100%;
+			transition: 0.75s;
+		}
+		.zoomlmage img:hover{
+			transform: scale(2.8)
+		}
+	</style>
+</head>
+<body>
+	<div class="zoomlmage">
+		<img src="Karim Coda.jpg">
+	</div>
+</body>
+</html>
